@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'poppins';
+  font-weight: 300;
+  font-size: 10px;
+}
+
+h1 {
+  font-weight: 200;
+  color: white;
+  font-size: 3.5em;
+}
+
+h2 {
+  font-weight: 300;
+  color: white;
+  font-size: 3em;
+}
+
+h3 {
+  font-weight: 300;
+  color: rgb(83, 88, 98);
+  font-size: 3em;
+}
+
+button {
+  color:white;
+  border: 0;
+  border-radius: 30px;
+  padding: 11.25px 30px;
+  font-size: 15px;
+  font-weight: 200;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 1.5em;
+  height: 3em;
+}
+
+.nav-bar{
+  position: relative;
+}
+
+.top-left {
+  float: left;
+  padding: 0 1em;
+  bottom: 0px;
+}
+
+.heart {
+  padding: 0 1em;
+}
+
+.acronym {
+  padding: 0 1em;
+}
+
+.top-links {
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: auto 1em;
+}
+
+header {
+  background-color: rgb(32, 101, 136);
+  height: 450px;
+  padding: 1em 2em; 
+  position: relative;
+  color: white;
+  background-image: url("images/city-scape.svg");
+
+}
+
+#header-bar {
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
+}
+
+#npm-logo {
+  width: 6.5%;
+  float: left;
+  padding: 0 0 0 1em;
+}
+
+.find-btn {
+  float: left;
+  font-family: 'poppins';
+  background: rgb(31, 82, 111);
+  text-align: start;
+  font-size: 1em;
+}
+
+#header-bar a {
+  text-decoration: none;
+  color: white;
+}
+
+#header-bar ul {
+  float: left;
+  margin-left: 15px;
+}
+
+#header-bar li {
+  list-style-type: none;
+  display: inline-block;
+  margin: auto 0;
+  padding: 0;
+  vertical-align: middle;
+}
+
+#bear-logo {
+  width: 3em;
+}
+
+.find-btn#search-bar {
+  padding: 8px 70%  8px 1%;
+  border: 1px solid rgb(32, 101, 136);
+  margin-left: 1em; 
+}
+
+.find-btn#search-btn {
+  padding: 0.7em 0.9em;
+  margin: 0 1em 1em 0;
+  border: 1px solid rgb(32, 101, 136);
+  border-radius: 0;
+}
+
+#header-content {
+  clear: both;
+  margin: 0 50% 0 20%;
+  padding: 4em 4em 0 0;
+  width: 40%;
+}
+
+#header-content .title {
+  padding: 1em 0 0 0;
+}
+
+#header-content p{
+  font-size: 1.5em;
+  width: 450px;
+  padding: 2em 0;
+}
+
+#header-content #npm-btn {
+  background: rgb(240, 146, 51);
+}
+
+#collaboration {
+  height: 550px;
+  color: white;
+  background: rgb(39, 53, 71);
+  margin: 0 auto;
+}
+
+#collaboration .text {
+  float: left;
+  margin: 10em 0 0 3em;
+  font-size: 1.3em;
+}
+
+#collaboration h2 {
+  width: 500px;
+}
+
+#collaboration-img {
+  height: 30em;
+  width: 50.4em;
+  margin: 12.5em 0 12.5em 15%;
+  float: left;
+}
+
+#collaboration ul {
+  margin: 1em 2em 0 2em;
+}
+
+#collaboration button {
+  background: rgb(203, 56, 55);
+  margin: 10px 20px 5px;
+}
+
+#collaboration p {
+  margin: 5px 20px 0 20px;
+}
+
+.bold-link {
+  font-weight: 300;
+}
+
+#what-is-npm {
+  background-image: url("images/forklift.svg");
+  background-size: cover;
+  height: 550px;
+  color: white;
+  font-size: 1.3em
+}
+
+#what-is-npm h2{
+  padding-bottom: .8em;
+}
+
+#what-is-npm button {
+  background: rgb(49, 68, 88);
+  margin: .5em 0 0 15%;
+}
+
+#what-is-npm .text {
+  width: 22%;
+  padding: 8em 0 0 15%;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+#what-to-do .content a {
+  color: rgb(208, 74, 73);
+}
+
+#what-to-do {
+  height: 450px;
+}
+
+.col3x3 {
+  width: 25%;
+  margin: 0 .5%;
+  float: left;
+  text-align: center;
+}
+
+#what-to-do .title {
+  width: 65%;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#what-to-do p{
+  color: rgb(135, 145, 156);
+  font-size: 1.5em;
+}
+
+#what-to-do h4{
+  color: rgb(83, 88, 98);
+  font-size: 2em;
+  font-weight: 500;
+}
+
+#what-to-do h3{
+  font-weight: 500;
+}
+
+
+.col-middle {
+  margin: 0 1%;
+}
+
+.col-left {
+  margin: 0 0 0 11.5%;
+}
+
+.col-right {
+  margin: 0 11.5% 0 0;
+}
+
+#what-to-do .text {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#what-to-do .subtitle{
+  margin: 10px 0 20px 0;
+}
+
+#what-to-do .box-title{
+  padding: 10px 0;
+}
+
+.bold-link {
+  font-weight: 500;
+}
